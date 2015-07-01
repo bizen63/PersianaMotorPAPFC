@@ -32,8 +32,8 @@ void setup() {
   pinMode(motorPin2, OUTPUT);
   pinMode(motorPin3, OUTPUT);
   pinMode(motorPin4, OUTPUT);
-  pinMode(FcArriba, OUTPUT);
-  pinMode(FcAbajo, OUTPUT); 
+  pinMode(FcArriba, INPUT);
+  pinMode(FcAbajo, INPUT); 
     
   IRLbegin<IR_ALL>(interruptIR);
 }
